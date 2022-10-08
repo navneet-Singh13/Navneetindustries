@@ -1,0 +1,144 @@
+body { 
+ background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);;
+padding: 17px;
+}
+#main{ 
+    
+    border-radius: 80px ;
+    margin-top:100px ; 
+    height:100% ;
+    
+    
+    margin-right: 20px;
+    position: relative;
+    background-color:rgb(0, 0, 0);
+    z-index: 3;
+    border-style:solid;
+    
+
+}
+#logo{ 
+     position: relative;
+     display: flex;
+     margin-left: auto;
+     margin-right: auto;
+     width: 200px;
+     height: 100px;
+}
+
+
+#name { 
+    color:white ; 
+    text-align: center;
+    font-weight: bolder;
+
+
+}
+@media only screen and (max-width: 400px) {
+    #founder{ 
+        text-align: center;
+    }
+    #papa{ 
+        text-align: center;
+        margin-left: 35px;
+    }
+    #manuf{
+        text-align: center;
+    }
+    #locate{ 
+        text-align: center;
+        height: 200px ;
+        width:200px; 
+        margin-left : 55px;
+    }
+    #loc-but{ 
+        text-align: center;
+        align-items: center;
+    }
+    #follow{
+        text-align: center;
+    }
+    
+  }
+@media only screen and (max-width: 420px) {
+    #locate{ 
+        text-align: center;
+        height: 200px ;
+        width:200px; 
+        margin-left : 55px;
+    }
+}
+#papa{ 
+    margin-left: 20px ;
+    transition: 1000ms;
+  }
+  #papa:hover{
+    filter: drop-shadow(8px 8px 10px white);
+  }
+#one,#two{ 
+    color:white
+}
+
+
+#founder{ 
+    font-family: 'Secular One', sans-serif;
+    color:white;
+    padding: 10px;
+}
+#mah{
+    color:yellow ;
+}
+#manuf{
+    color:white ; 
+    font-size: 30px;
+}
+#loc-but{
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 20px;
+    padding:8px;
+    background-color: royalblue;
+    color:white;
+    font-size: 25px;
+    
+}
+#contact{
+    color:white ; 
+    font-size: 20px;
+}
+#ico{
+    display: inlineblock;
+    height: 40px;
+    width: 40px;
+    margin: 5px 5px 5px 5px ;
+}
+#follow,#contact,#manuf{ 
+    font-family: 'BIZ UDPGothic', sans-serif;
+}
+.task1{
+    margin-top: 70px;
+    width: 100%;
+    border-radius: 20px;
+    height: 50px;
+}
+#c1{ 
+    background-color: rgb(106, 106, 249);
+}
+#c2{
+    background-color: rgb(255, 104, 104);
+}
+#c3{
+    background-color:rgb(255, 187, 85);
+}
+#c4{
+    background-color: blueviolet;
+}
+#c5{
+    background-color: rgb(72, 193, 72) ;
+}
+#c6{
+    background-color: rgb(135, 170, 222);
+}
+#mail{
+    font-size: 15px;
+}
